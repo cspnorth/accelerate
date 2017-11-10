@@ -2,7 +2,7 @@
  Theme Name:   Accelerate Theme Child
  Theme URI:    http://example.com/accelerate-theme-child/
  Description:  Accelerate Child Theme - Accelerate
- Author:       Cate Northup
+ Author:       Cate Northup!
  Author URI:   http://example.com
  Template:     accelerate-theme
  Version:      1.0.0
@@ -10,8 +10,16 @@
  Text Domain:  accelerate-theme-child
 */
 
-@import url("../accelerate-theme/style.css")
+@import url("../accelerate-theme/style.css");
 
-body {
-	background: red;
+/* HOMEPAGE STYLES */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+.button {
+	background: #45ab9d;
+}
+/* BODY STYLES */
+#masthead {
+  background: none repeat scroll 0 0 #45ab9d;
 }
