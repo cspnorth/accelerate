@@ -45,6 +45,10 @@ get_header(); ?>
 				</article>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
+
 	</div><!-- #primary -->
+<div id="navigation" class="container">
+	<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to work</span></a></div>
+</div>
 
 <?php get_footer(); ?>

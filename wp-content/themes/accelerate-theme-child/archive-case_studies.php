@@ -22,10 +22,10 @@ get_header(); ?>
 			<article class="case-study">
 				<div class="case-study-row">
 					<aside class="case-study-sidebar">
-						<h2><?php the_title(); ?></h2>
+						<h2><?php the_title(); ?></h4>
 						<h5><span><?php echo $services; ?></span></h5>
 						<?php the_content(); ?>
-						<p><a href="<?php echo $link; ?>">View project &raquo;</a></p>
+						<p><a href="<?php the_permalink(); ?>">View project &raquo;</a></p>
 					</aside>
 					<div class="case-study-images">
 						<?php if($image_1) {

@@ -84,8 +84,11 @@ ul {
 .case-study-row .case-study-images img {
 	margin: 0 0 0;
 }
-.case-study-row aside.case-study-sidebar h2 {
+.case-study-row h2 {
 	margin: 0;
+	font-weight: 400;
+	color: #3b3b3b;
+	text-transform: capitalize;
 }
 /* SINGLE CASE STUDY STYLES */
 
@@ -123,6 +126,18 @@ div.case-study-images {
 div.case-study-images img {
 	border: 1px solid #dddddd;
 	margin: 0 0 40px;
+}
+div.back-to-work {
+	background: #fff;
+	border: solid #bfbfbf;
+	border-width: 1px 0;
+	clear: both;
+	font: .8em/4.08 'OpenSans', Arial, sans-serif;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 5em;
+	text-align: left;
 }
 
 
