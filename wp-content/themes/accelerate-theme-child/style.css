@@ -11,10 +11,16 @@
 */
 
 @import url("../accelerate-theme/style.css");
-
+/* BODY STYLES */
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
 /* HOMEPAGE STYLES */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+.home-page {
+	margin: 0 0 2em;
 }
 .button {
 	background: #45ac9d;
@@ -26,12 +32,12 @@
 }
 .blog-post h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-	color: #a6a6a6a;
+	color: #a6a6a6;
 	text-transform: uppercase;
 	margin: 2em 0 .5em;
 }
 .blog-post h3 {
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 .read-more-link {
 	font-family: 'Montserrat';
@@ -39,8 +45,76 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
-
-/* BODY STYLES */
-#masthead {
-  background: none repeat scroll 0 0 #45ac9d;
+.homepage-featured-work {
+	display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 3em 0;
 }
+.homepage-featured-work h4 {
+	font-family: 'Open Sans';
+	font-size: 1em;
+	color: #3b3b3b;
+	text-align: center;
+	margin: 10px auto;
+	font-weight: 500;
+}
+ul {
+	list-style: none;
+}
+.featured-work .site-content {
+	display: flex;
+	flex-flow: column;
+}
+.featured-work {
+	margin-bottom: 2em;
+}
+.featured-work h5 {
+	text-align: center;
+	margin-bottom: ;
+}
+.client-work {
+	display: inline-block;
+	border: 1px solid #333;
+}
+
+/* SINGLE CASE STUDY STYLES */
+
+article.case-study {
+	margin-top: 40px;
+}
+aside.case-study-sidebar {
+	float: left;
+	width:	35%;
+	margin-right: 9%;
+}
+aside.case-study-sidebar h2{
+	margin: 2em 0 0 0;
+	font-weight: 400;
+}
+aside.case-study-sidebar h5{
+	font-size: 0.8em;
+	margin: 0.5em 0 0.5em;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+aside.case-study-sidebar a {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+aside.case-study-sidebar h5 span {
+	color: #9d9d9d;
+}
+div.case-study-images {
+	float: left;
+	width: 55%;
+}
+div.case-study-images img {
+	border: 1px solid #dddddd;
+	margin: 0 0 40px;
+}
+
+
+
