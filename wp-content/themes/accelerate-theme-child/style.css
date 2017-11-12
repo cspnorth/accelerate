@@ -73,11 +73,20 @@ ul {
 	text-align: center;
 	margin-bottom: ;
 }
-.client-work {
-	display: inline-block;
-	border: 1px solid #333;
-}
 
+/* CASE STUDIES ARCHIVE PAGE */
+.case-study-row {
+	overflow: auto;
+	display: flex;
+	align-items: center;
+	padding: 1em 0;
+}
+.case-study-row .case-study-images img {
+	margin: 0 0 0;
+}
+.case-study-row aside.case-study-sidebar h2 {
+	margin: 0;
+}
 /* SINGLE CASE STUDY STYLES */
 
 article.case-study {
