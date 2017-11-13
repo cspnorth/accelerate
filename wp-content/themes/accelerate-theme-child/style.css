@@ -139,6 +139,25 @@ div.back-to-work {
 	margin-bottom: 5em;
 	text-align: left;
 }
+/* FOOTER STYLING */
+
+#menu-social-media-nav {
+	float: right;
+}
+#menu-social-media-nav li {
+	float: left;
+	display: block;
+}
+#menu-social-media-nav .menu-item-object-custom a {
+    text-align: center;   
+    font-size: 1.125em;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #333333;
+ 	padding: 5px;
+ 	margin-left: 10px;
+}
+/*End foter styling*/
 
 
 
