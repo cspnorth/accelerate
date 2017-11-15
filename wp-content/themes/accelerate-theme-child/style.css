@@ -48,6 +48,7 @@
 .homepage-featured-work {
 	display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 3em 0;
 }
@@ -139,6 +140,66 @@ div.back-to-work {
 	margin-bottom: 5em;
 	text-align: left;
 }
+/* CONTACT US FORM STYLING */
+
+.page-id-47366 .main-content {
+	margin: 0 10em;
+}
+.page-id-47366 h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.field-wrap label {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.semi-bold {
+	font-weight: 500;
+}
+textarea {
+	font: 1em 'OpenSans', Arial, sans-serif;
+    line-height: 2;
+    height: 2.3125em;
+    border: 1px solid #BFBFBF;
+    margin: 0;
+    padding: 0.3em 0.625em;
+    background: #fff;
+    vertical-align: middle;
+}
+input[type="button"],
+input[type="submit"] {
+	font: 400 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+	color: #fff;
+	background: #45ac9d;
+	border: none;
+	padding: 1em 3.75em;
+	text-align: center;
+	border-radius: 0;
+	float: right;
+}
+
+/*
+.main-content {
+	max-width: 80%;
+	margin: auto;
+}
+.half-width-field {
+	width: 45%;
+
+}
+#nf-field-1-container,
+#nf-field-2-container {
+	border: 1px solid green;
+}
+
+.textbox-container,
+.email-container {
+	float: left;
+	border: 1px solid red;
+}
+}*/
+
 /* FOOTER STYLING */
 
 #menu-social-media-nav {
