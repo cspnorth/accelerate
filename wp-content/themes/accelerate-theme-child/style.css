@@ -48,7 +48,6 @@
 .homepage-featured-work {
 	display: flex;
     flex-flow: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin: 3em 0;
 }
@@ -142,9 +141,10 @@ div.back-to-work {
 }
 /* CONTACT US FORM STYLING */
 
-.page-id-47366 .main-content {
+.page-id-47365 .main-content {
 	margin: 0 10em;
 }
+
 .page-id-47366 h2 {
     font-size: 24px;
     margin-top: 20px;
@@ -178,27 +178,100 @@ input[type="submit"] {
 	border-radius: 0;
 	float: right;
 }
+/* ABOUT US PAGE = ARCHIVE-SERVICES */
+.hero-text h3 {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: auto;
+    max-width: 550px;
+}
+.page-width {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
 
-/*
-.main-content {
-	max-width: 80%;
-	margin: auto;
+.services-intro {
+	text-align: center;
+	margin: 2em 0;
 }
-.half-width-field {
-	width: 45%;
+.flex-column {
+	display: -webkit-box;
+	   display: -moz-box;
+	   display: -ms-flexbox;
+	   display: -webkit-flex;
+	   display: flex;
+	   flex-flow: column;
+	   justify-content: space-between;
+	   border-bottom: 1px solid #BFBFBF;
+}
+.oddpost {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   margin: 4em 0;
+}
+.evenpost {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+   flex-flow: row-reverse nowrap;
+   align-items: center;
+   margin: 4em 0;
+}
+.evenpost .service-image {
+	text-align: right;
+}
+.service-image img {
+	width: 215px;
+}
+.service-image {
+	flex-basis: 150%;
+}
 
+/* SERVICE PAGE */
+.flex-container {
+  /*SET DISPLAY FLEX ON CONTAINER*/ 
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
-#nf-field-1-container,
-#nf-field-2-container {
-	border: 1px solid green;
+.service-description {
+	flex-flow: column;
+}
+.service-copy h2{
+	margin: 0;
+}
+.service-icon {	
+    float: left;
+    margin: 0 150px 0 0;
+}
+.services {
+	flex-flow: column;
+}
+.services-cta {
+	justify-content: space-around;
+    padding: 0 150px;
+    margin: 4em 0px 2em;
 }
 
-.textbox-container,
-.email-container {
-	float: left;
-	border: 1px solid red;
-}
-}*/
 
 /* FOOTER STYLING */
 

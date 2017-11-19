@@ -41,7 +41,7 @@ function create_custom_post_types() {
         array(
             'labels' => array(
                 'name' => __( 'Services' ),
-                'singular_name' => __( 'service' )
+                'singular_name' => __( 'Service' )
             ),
             'public' => true,
             'has_archive' => true,
@@ -51,5 +51,5 @@ function create_custom_post_types() {
 }
 add_action( 'init', 'create_custom_post_types' );
 
-
-
+// odd or even
+$odd_or_even = 'odd';
