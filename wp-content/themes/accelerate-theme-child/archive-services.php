@@ -32,7 +32,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post();
 				$service_icon = get_field( 'service_icon');
 				$size = "full";
-			?>
+				?>
 				<article class="individual-services">
 					<div class='<?php echo (++$j % 2 == 0) ? 'evenpost' : 'oddpost'; ?>'>
 						<div class="service-image">
@@ -49,7 +49,7 @@ get_header(); ?>
 				</article><!-- end of article -->
 			<?php endwhile; // end of the loop. ?>
 		</div> <!-- end of flex column -->
-		<div class="services-cta oddpost service-copy">
+		<div class="services-cta oddpost">
 			<h2>Interested in working with us?</h2>
 			<a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
 		</div>
