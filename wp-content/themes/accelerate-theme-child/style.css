@@ -80,16 +80,19 @@ ul {
 }
 .homepage-tweets {
 	padding-left: 2em;
-	margin-bottom: 3em;
+	margin-bottom: 5em;
 }
 .homepage-tweets h4,
 .homepage-tweets h3,
 #twitter-widget-0 {
 	margin-left: 1em;
 }
-.sst-em {
-	display: none;
+/* MAILCHIMP WIDGET STYLING */
+#mc4wp_form_widget-2 {
+	margin-top: 6em;
 }
+
+
 #mc4wp_form_widget-2 h3 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #a6a6a6;
