@@ -51,5 +51,12 @@ function create_custom_post_types() {
 }
 add_action( 'init', 'create_custom_post_types' );
 
+//Enque scripts and styles.
+function accelerate_child_scripts() {
+    wp_enqueue_style( 'accelerate-google-fonts', '//fonts.googleapis.com/css?family=Nosifer|Overlock:700i' );
+}
+add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
+
+
 // odd or even
 $odd_or_even = 'odd';

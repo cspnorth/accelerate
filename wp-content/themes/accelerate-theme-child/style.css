@@ -178,7 +178,12 @@ input[type="submit"] {
 	border-radius: 0;
 	float: right;
 }
-/* ABOUT US PAGE = ARCHIVE-SERVICES */
+/* ABOUT US PAGE = SERVICES ARCHIVE PAGE */
+
+.about-page {
+    padding: 5em 0;
+}
+
 .hero-text h3 {
     color: #fff;
     font-family: 'Open Sans';
@@ -207,6 +212,12 @@ input[type="submit"] {
 	   justify-content: space-between;
 	   border-bottom: 1px solid #BFBFBF;
 }
+.oddpost h2,
+.evenpost h2 {
+	font-family: 'OpenSans';
+	font-size: 25px;
+	font-weight: 600;
+}
 .oddpost {
 	display: -webkit-box;
 	display: -moz-box;
@@ -215,7 +226,7 @@ input[type="submit"] {
 	display: flex;
    flex-flow: row nowrap;
    align-items: center;
-   margin: 4em 0;
+   margin: 2em 0;
 }
 .evenpost {
 	display: -webkit-box;
@@ -225,7 +236,7 @@ input[type="submit"] {
 	display: flex;
    flex-flow: row-reverse nowrap;
    align-items: center;
-   margin: 4em 0;
+   margin: 2em 0;
 }
 .evenpost .service-image {
 	text-align: right;
@@ -234,7 +245,18 @@ input[type="submit"] {
 	width: 215px;
 }
 .service-image {
-	flex-basis: 150%;
+	width:85%;
+}
+.service-copy {
+	width: 175%;
+}
+.services-cta {
+	justify-content: space-around;
+    padding: 0 150px;
+    margin: 4em 0px 2em;
+}
+.services-cta h2{
+    margin: 0;
 }
 
 /* SERVICE PAGE */
@@ -266,12 +288,34 @@ input[type="submit"] {
 .services {
 	flex-flow: column;
 }
-.services-cta {
-	justify-content: space-around;
-    padding: 0 150px;
-    margin: 4em 0px 2em;
+/* 404 PAGE */
+.error-page h1 {
+	font-family: 'Nosifer', 'Montserrat', 'Open Sans', Arial, sans-serif;
+	font-size: 4em;
+	margin: 0;
 }
-
+.error-page h2 {
+	font-family: 'Overlock', cursive;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	margin-top: 0;
+	line-height: 1.25em;
+}
+.error-body {
+	display: flex;
+	text-align: center;
+}
+.error-image {
+	width: 50%;
+}
+.error-copy {
+	padding: 0 2em;
+}
+.error-button {
+	text-align: center;
+	margin: 2em auto;
+}
 
 /* FOOTER STYLING */
 
