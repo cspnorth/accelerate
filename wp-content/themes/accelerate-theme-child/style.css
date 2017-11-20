@@ -25,26 +25,6 @@
 .button {
 	background: #45ac9d;
 }
-.blog-post {
-	width: 50%;
-	float: left;
-	margin-bottom: 2em;
-}
-.blog-post h4 {
-	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-	color: #a6a6a6;
-	text-transform: uppercase;
-	margin: 2em 0 .5em;
-}
-.blog-post h3 {
-	font-size: 1.25em;
-}
-.read-more-link {
-	font-family: 'Montserrat';
-	font-weight: 700;
-	color: #45ac9d;
-	text-transform: uppercase;
-}
 .homepage-featured-work {
 	display: flex;
     flex-flow: row;
@@ -73,6 +53,69 @@ ul {
 	text-align: center;
 	margin-bottom: ;
 }
+.homepage-tweets,
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+	padding-right: 3em;
+}
+.homepage-tweets h4,
+.blog-post h4 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin: 2em 0 .5em;
+}
+.homepage-tweets h3,
+.blog-post h3 {
+	font-size: 1.25em;
+}
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+.homepage-tweets {
+	padding-left: 2em;
+	margin-bottom: 3em;
+}
+.homepage-tweets h4,
+.homepage-tweets h3,
+#twitter-widget-0 {
+	margin-left: 1em;
+}
+.sst-em {
+	display: none;
+}
+#mc4wp_form_widget-2 h3 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin: 2em 0 .5em 1em;
+}
+#mc4wp_form_widget-2 h4 {
+	font-family: 'Montserrat';
+	font-size: 1em;
+	color: #3b3b3b;
+	margin: 2em 0 .5em 1em;
+	font-weight: 700;
+}
+#mc4wp_form_widget-2 p {
+	margin-left: 1em;
+}
+#mc4wp_form_widget-2 h6 {
+	text-align: center;
+	font: 400 0.8em/1 'Montserrat', 'Open Sans', Arial, sans-serif;
+	font-style: italic;
+}
+#mc4wp_form_widget-2 input {
+	width: 100%;
+	height: auto;
+}
+
+
 
 /* CASE STUDIES ARCHIVE PAGE */
 .case-study-row {
@@ -316,7 +359,10 @@ input[type="submit"] {
 	text-align: center;
 	margin: 2em auto;
 }
-
+/* TWITTER FEED */
+.tweets {
+	float:left;
+}
 /* FOOTER STYLING */
 
 #menu-social-media-nav {
